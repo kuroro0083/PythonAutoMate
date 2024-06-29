@@ -40,3 +40,11 @@ for rowsObject in cells:
 print('--------------')
 
 print(list(sheet1.columns)[0]) #　获取第一列
+
+wb.close()
+
+# create new sheet
+# wb2 = openpyxl.load_workbook('./file/13/test2.xlsx')
+# wb2.create_sheet(index=0, title='hello')
+# print(wb2.sheetnames)
+# wb2.save('./file/13/test2.xlsx')
